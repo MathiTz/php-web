@@ -1,0 +1,12 @@
+{
+    "name": "root/authen2",
+    "authors": [
+        {
+            "name": "mathitz",
+            "email": "matheusalves789@gmail.com"
+        }
+    ],
+    "require": {
+        "adoy/oauth2":"*"
+    }
+}

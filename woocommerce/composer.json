@@ -1,0 +1,22 @@
+{
+    "name": "root/woocommerce",
+    "authors": [
+        {
+            "name": "mathitz",
+            "email": "matheusalves789@gmail.com"
+        }
+    ],
+    "require": {
+        "league/oauth2-client": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "League\\OAuth2\\Client\\Provider": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "League\\OAuth2\\Client\\Test\\": "test/src/"
+        }
+    }
+}
